@@ -28,6 +28,7 @@ if eleccion1 == "FOSFORO":
     print("_______________________________________________________________________")
     
     if eleccion2a == "CORRER":
+        
         #Nivel 3A (2 opciones)
         print("Corres a toda velocidad topezando conraices. Llegas al borde de un barranco.\n"
               "Ves una cuerda colgando, un rio abajo y una cueva cercana.")
@@ -167,5 +168,38 @@ elif eleccion1 == "LINTERNA":
                 print("Intentas robar su mochila, pero despiertan sus perros guardianes.\n FIN DEL JUEGO: HAS SIDO ATRAPADO 🐕")
             else: 
                 print("Opcion no valida, te descubrieron por dudar. FIN DEL JUEGO. 😔")
+                
         elif eleccion3c == "NIEBLA":
-            print("Te perdes por completo en la niebla y terminas vagando en circulos para siempre\n")
+            print("Te perdes por completo en la niebla y terminas vagando en circulos para siempre.\n"
+                  "FIN DEL JUEGO: TE HAS PERDIDO... ")
+        else: 
+            print("Opcion no valida. Tr quedaste sin pilas en la cueva.\n FIN DEL JUEGO... 🔦")
+    
+    elif eleccion2b == "BUSCAR":
+        
+        #Nivel 3D (3 opciones)
+        print("Apuntas la linterna hacia la maleza y ves un lobo herido.")
+        eleccion3d = input("Qu haras? (CURAR / HUIR / ATACAR): ").upper()
+        print("_______________________________________________________________________")
+        
+        if eleccion3d == "CURAR":
+            print("Ayudas al lobo. En agradecimiento, te lleva a la salida del bosque\n"
+                  "FIN DEL JUEGO: GANASTE UN ALIADO Y TU LIBERTAD 🐺")
+        
+        elif eleccion3d == "HUIR":
+            print("Tropiezas al huir en la oscuridad y tu linterna se rompe.\n FIN DEL JUEGO: NO PUEDES VER NADA!!👀")
+        
+        elif eleccion3d == "ATACAR":
+            print("El lobo se defiende a pesar de sus heridas.\n FIN DEL JUEGO: HAS SIDO DERROTADO...🤡")
+        else:
+            print("Opcion no valida. El lobo se asusto y te ataco.\n FIN DEL JUEGO!")
+    
+    elif eleccion2b == "APAGAR" :
+        print("Apagas la linterna. Una criatura pasa al lado tuyo sin notar tu presencia.\n"
+              "Avanzas hasta que encuentras la carretera!\n FIN DEL JUEGO: HAS SOBREVIVIDO!!! 🛣️")
+    
+    else:
+        print("Opcion no valida! Te deslumbras a ti mismo y tropezaste.\N FIN DEL JUEGO :/")
+else:
+    print("Opcion no valida. Debes elegir entre el fosforo y la linterna para comenzar...\n FIN DEL JUEGO.")
+ 
