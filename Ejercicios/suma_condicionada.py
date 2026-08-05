@@ -3,10 +3,12 @@
 numero1 = int(input("Ingresa un numero entero: "))
 numero2= int(input("Ingresa otro numero entero: "))
 
-suma = numero1 + numero1
+suma = numero1 + numero2
 
 if suma > 100 :
     print("La suma es mayor que 100")
+elif suma == 100 :
+    print("La suma es 100")
 else :
     print("La suma es menor que 100")
     
