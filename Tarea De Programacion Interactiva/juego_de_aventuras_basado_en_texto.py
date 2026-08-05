@@ -199,7 +199,6 @@ elif eleccion1 == "LINTERNA":
               "Avanzas hasta que encuentras la carretera!\n FIN DEL JUEGO: HAS SOBREVIVIDO!!! 🛣️")
     
     else:
-        print("Opcion no valida! Te deslumbras a ti mismo y tropezaste.\N FIN DEL JUEGO :/")
+        print("Opcion no valida! Te deslumbras a ti mismo y tropezaste.\n FIN DEL JUEGO :/")
 else:
     print("Opcion no valida. Debes elegir entre el fosforo y la linterna para comenzar...\n FIN DEL JUEGO.")
- 
