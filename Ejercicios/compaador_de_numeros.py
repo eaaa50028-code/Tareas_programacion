@@ -1,5 +1,5 @@
 #Ingresar dos numeros e indicar cual es mayor, cual es menor o si son iguales
-num1 = int(input("Ingresar elprimernumero: "))
+num1 = int(input("Ingresar el primernumero: "))
 num2= int(input("Ingresar el segundo numero: "))
 
 if num1 > num2:
