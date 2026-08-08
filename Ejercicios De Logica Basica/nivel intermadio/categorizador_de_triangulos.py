@@ -4,7 +4,7 @@ a = float(input("Ingresa el lado A: "))
 b = float(input("Ingresa el lado B: "))
 c = float(input("Ingresa el lado C: "))
 
-if a + b > c and a + c > b and b + c > a :
+if a + b > c or a + c > b or b + c > a :
     
     if a == b and b == c :
         tipo_de_triangulo = "Equilatero"
@@ -14,5 +14,6 @@ if a + b > c and a + c > b and b + c > a :
     else: 
         tipo_de_triangulo = "Escaleno"
     print(f"Tu triangulo es un triangulo {tipo_de_triangulo} 😋")
+    
 else:
     print("Los lados ingresados no pueden formar un triangulo.")

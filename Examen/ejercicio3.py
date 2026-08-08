@@ -1,5 +1,6 @@
 #Alejandra Estefani Urdaneta Fernandez
 """Evaluador de estado académico* 🎓"""
+
 print(" " * 11,"EVALUADOR DE ESTADO ACADEMICO")
 print("=" * 56)
 print("|    Nombre         |     Nota   |     Estado          |")
